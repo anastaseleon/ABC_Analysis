@@ -62,6 +62,4 @@ We welcome contributions! Please feel free to fork the repository and submit pul
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
----
 
-This modified README provides clear instructions on how to obtain the Adventure Works dataset directly from Microsoft, ensuring users have the most up-to-date version and helping them set up their environment correctly for following your analysis.
