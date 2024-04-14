@@ -1,6 +1,6 @@
 # ABC Analysis on the Adventure Works Dataset
 
-Welcome to the GitHub repository for the ABC analysis of the Adventure Works dataset using SQL and Power BI. This repository contains SQL scripts, Python scripts, and Jupyter notebooks needed to perform ABC analysis and visualize the results using Power BI.
+Welcome to the GitHub repository for the ABC analysis of the Adventure Works dataset using SQL and Power BI. This repository contains SQL scripts,  and  Jupyter notebooks needed to perform ABC analysis and visualize the results using Power BI.
 
 ## Overview
 
@@ -12,9 +12,9 @@ ABC analysis is a categorization technique based on the "Pareto Principle" (the 
 ## Repository Structure
 
 - **sql/**: SQL scripts used for creating views and performing the analysis.
-- **notebooks/**: Jupyter notebooks demonstrating the analysis in python
-- **visuals/**: Images of the Power BI dashboards used in the analysis.
-- **requirements.txt**: Python dependencies required to run the scripts.
+- **notebooks/**: Jupyter notebooks demonstrating the analysis in Python
+- **Power BI Template/**: template of the Power BI dashboards used in the analysis.
+
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ ABC analysis is a categorization technique based on the "Pareto Principle" (the 
 - SQL Server (for running SQL scripts)
 - Python 3.8 or above
 - Jupyter Notebook or an equivalent IPython notebook environment
-- Power BI Desktop (for replicating the BI dashboards)
+- Power BI Desktop 
 
 ### Setup
 
@@ -51,12 +51,6 @@ ABC analysis is a categorization technique based on the "Pareto Principle" (the 
 6. **Open and Run the Jupyter Notebooks**
    - Navigate to the `notebooks/` directory and open the Jupyter notebooks to follow a detailed step-by-step analysis.
 
-7. **Review the Visuals**
-   - Explore the `visuals/` directory to view static images of the Power BI dashboards.
-
-## Contributing
-
-We welcome contributions! Please feel free to fork the repository and submit pull requests. You can also open an issue if you find any bugs or have suggestions for improvements.
 
 ## License
 
