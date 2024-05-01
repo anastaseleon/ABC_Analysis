@@ -2,6 +2,8 @@
 
 Welcome to the GitHub repository for the ABC analysis of the Adventure Works dataset using SQL and Power BI. This repository contains SQL scripts,  and  Jupyter notebooks needed to perform ABC analysis and visualize the results using Power BI.
 
+Read the article on medium : https://medium.com/@anastaseleon/abc-analysis-on-the-adventure-works-dataset-using-sql-and-power-bi-6b22aeebe678
+
 ## Overview
 
 ABC analysis is a categorization technique based on the "Pareto Principle" (the 80/20 rule), which helps businesses prioritize resources and optimize inventory management by classifying items into three classes:
