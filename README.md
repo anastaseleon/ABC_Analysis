@@ -22,7 +22,7 @@ The methodology for this analysis involves:
 2. Data Classification: Classifying inventory items based on their consumption value and frequency.
 3. Visualization: Using Power BI to visualize and interpret the classification results.
 
-For a detailed step-by-step guide on the methodology, refer to the corresponding section in our [Medium article](https://medium.com/@anastaseleon/abc-analysis-on-the-adventure-works-dataset-using-sql-and-power-bi-6b22aeebe678).
+For a detailed step-by-step guide on the methodology, refer to the corresponding section in my [Medium article](https://medium.com/@anastaseleon/abc-analysis-on-the-adventure-works-dataset-using-sql-and-power-bi-6b22aeebe678).
 
 ## The Impact of ABC Analysis
 
@@ -34,7 +34,7 @@ Implementing ABC analysis can lead to significant improvements in inventory mana
 - Reduce carrying costs
 - Enhance decision-making processes
 
-In my case, the calssification will help in  following projects in my portefolio. For example in [Time series forcasting](https://github.com/anastaseleon/Time-serie-forcasting/tree/main) , I was able to get a better performance when forecasting  individual ABC category.
+In my case, the classification will help in  the following projects in my portfolio. For example in [Time series forcasting](https://github.com/anastaseleon/Time-serie-forcasting/tree/main) , I was able to get a better performance when forecasting  individual ABC categories.
 
 ## Repository Structure
 
