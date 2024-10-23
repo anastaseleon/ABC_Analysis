@@ -38,8 +38,16 @@ Sub GenerateMaintenanceScheduleForMultipleAssets()
         currentHours = wsInput.Cells(assetRow, 2).Value
         monthlyHours = wsInput.Cells(assetRow, 3).Value
         totalMonths = 10 * 12 ' 10 years = 120 months
-        nextCheckUp = 150   ' Next check-up at 150 hours
-        nextMaintenance = 300 ' Next maintenance at 300 hours
+        nextCheckUp = 150   ' Initial check-up threshold
+        nextMaintenance = 300 ' Initial maintenance threshold
+        
+        ' Skip any past due check-ups and maintenance
+        Do While currentHours >= nextCheckUp
+            nextCheckUp = nextCheckUp + 150
+        Loop
+        Do While currentHours >= nextMaintenance
+            nextMaintenance = nextMaintenance + 300
+        Loop
         
         ' Loop through each month for 10 years
         For monthCount = 1 To totalMonths
